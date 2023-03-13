@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="266.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.FXMLDialogWindow">
+   <children>
+      <Label layoutX="24.0" layoutY="31.0" text="Left domain border" />
+      <Label layoutX="24.0" layoutY="69.0" text="Right domain border" />
+      <Label layoutX="24.0" layoutY="111.0" text="Points count" />
+      <Button layoutX="195.0" layoutY="156.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="51.0" text="Ok" onAction="#btnOKClick"/>
+      <Button layoutX="24.0" layoutY="156.0" mnemonicParsing="false" text="Cancel" onAction="#btnCancelClick"/>
+      <TextField layoutX="143.0" layoutY="27.0" prefHeight="25.0" prefWidth="103.0" text="0" fx:id="leftBorder"/>
+      <TextField layoutX="143.0" layoutY="65.0" prefHeight="25.0" prefWidth="103.0" text="2" fx:id="rightBorder"/>
+      <Spinner layoutX="143.0" layoutY="107.0" prefHeight="25.0" prefWidth="103.0" fx:id="spinner"/>
+   </children>
+</AnchorPane>
